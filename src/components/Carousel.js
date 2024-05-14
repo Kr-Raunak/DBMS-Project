@@ -14,7 +14,7 @@ const Carousel = () => {
         </div>
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="https://cdn.pixabay.com/photo/2016/11/18/17/46/house-1836070_1280.jpg"
+            src="https://plus.unsplash.com/premium_photo-1683120796013-f2f18451a907?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt={alter}
           />
@@ -22,7 +22,7 @@ const Carousel = () => {
 
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJlYWwlMjBlc3RhdGV8ZW58MHx8MHx8fDA%3D"
+            src="https://images.unsplash.com/photo-1606942298712-8bd250ff40f0?q=80&w=1936&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt={alter}
           />
@@ -30,7 +30,7 @@ const Carousel = () => {
 
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHx8MA%3D%3D"
+            src="https://plus.unsplash.com/premium_photo-1663134275544-7d83fcfa0e54?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt={alter}
           />
@@ -38,7 +38,14 @@ const Carousel = () => {
 
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
           <img
-            src="https://media.istockphoto.com/id/1447708518/photo/modern-villa-exterior-in-summer.webp?b=1&s=170667a&w=0&k=20&c=zh6wcDIxJk2ORk0Kg3hjVxQYWQsoLZ9TwAeCmxeYB-A="
+            src="https://images.unsplash.com/photo-1607273685680-6bd976c5a5ce?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+            alt={alter}
+          />
+        </div>
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+          <img
+            src="https://images.unsplash.com/photo-1595054225874-7d2315262e73?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
             alt={alter}
           />

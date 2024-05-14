@@ -6,16 +6,17 @@ import Navbar from "./components/Navbar";
 import toast, { Toaster } from "react-hot-toast";
 import { BrowserRouter as Router, Routes, Route, BrowserRouter } from "react-router-dom";
 import Viewdata from "./pages/Viewdata";
+import { Carousel, Footer } from "flowbite-react";
 
 function App() {
   return (
     <>
-      <div>
-        <Toaster />
-      </div>
+
       <Navbar />
-      
-      
+      <Toaster />
+      <Footer/>
+      <Carousel/>
+
     </>
   );
 }

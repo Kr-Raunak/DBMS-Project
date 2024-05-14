@@ -35,20 +35,19 @@ export default function Viewdata(p) {
 
   return (
     <>
-    
-      <section className="mx-auto w-full max-w-7xl px-4 py-4">
-        <div className="flex flex-col space-y-4  md:flex-row md:items-center md:justify-between md:space-y-0">
+      <section className="mx-auto w-full max-w-7xl p-4 ">
+        <div className="flex flex-col space-y-4 p-2 bg-gradient-to-br from-slate-800 via-slate-700 to-slate-500 rounded md:flex-row md:items-center md:justify-between md:space-y-0">
           <div>
-            <h1 className="text-lg font-semibold"><strong>{p.table} Table</strong> </h1>
+            <h1 className="text-md text-gray-200 pl-2"><strong>{p.table} Table</strong> </h1>
           </div>
-          <div>
-            <button
+          {/* <div>
+            {/* <button
               type="button"
-              className="rounded-md bg-gray-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              className="rounded-md bg-gradient-to-tr from-black to-gray-700 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
               <Link to={`/add_${p.table}`}>Add new {p.table}</Link>
-            </button>
-          </div>
+            </button> 
+          </div> */}
         </div>
         <div className="mt-6 flex flex-col">
           <div className="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
@@ -98,7 +97,7 @@ export default function Viewdata(p) {
                             </td>
                           ))}
                         </tr>
-                      ))}
+                      ))}+-
                   </tbody>
                 </table>
               </div>

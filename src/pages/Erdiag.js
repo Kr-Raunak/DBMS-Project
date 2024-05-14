@@ -1,11 +1,11 @@
 import React from 'react'
-import Er from "./jhy.png"
+import ERDiagrm from "./ERDiagrm.jpg"
 import Footer from '../components/Footer'
 const Erdiag = () => {
   return (
     <>
     <div style={{paddingTop : "38px" , display : "flex" , justifyContent : "center" , alignItems : "center" }}>
-        <img src = {Er} style={{height : "680px" , width : "1000px"}}/>
+        <img src = {ERDiagrm} style={{height : "680px" , width : "1000px"}}/>
     </div>
     
     </>
