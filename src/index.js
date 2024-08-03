@@ -6,11 +6,11 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Viewdata from "./pages/Viewdata";
 import Navbar from "./components/Navbar";
-import Add_agent from "./pages/Add_buyer";
-import Add_property from "./pages/Add_property";
+//import customer from "./pages/Customer";
+import Orders from "./pages/Orders";
 import Home from "./pages/Home";
-import Add_property_details from "./pages/Add_propertydetails";
-import Add_transaction from "./pages/Add_transaction";
+import Warehouse from "./pages/Warehouse";
+import Package from "./pages/Package";
 import Erdiag from "./pages/Erdiag";
 import OurTeam from "./pages/OurTeam";
 import RelationalSchema from "./pages/RelationalSchema";
@@ -19,7 +19,9 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Router>
+      
       <div>
+        
         <App />
         <Routes>
         
@@ -43,7 +45,7 @@ root.render(
             path="/Customer"
             element={<Viewdata table={"Customer"} />}
           />
-          <Route exact path="/add_property" element={<Add_property />} />
+          
           <Route
             exact
             path="/Truck"
@@ -59,15 +61,21 @@ root.render(
             path="/Employee"
             element={<Viewdata table={"Employee"} />}
           />
+          
           <Route
             exact
-            path="/add_property_details"
-            element={<Add_property_details />}
+            path="/Package"
+            element={<Package/>}
           />
           <Route
             exact
-            path="/add_transaction"
-            element={<Add_transaction/>}
+            path="/Orders"
+            element={<Orders/>}
+          />
+          <Route
+            exact
+            path="/Warehouse"
+            element={<Warehouse/>}
           />
 
           <Route
@@ -97,19 +105,11 @@ root.render(
           />
           <Route
             exact
-            path="/add_buyer"
-            element={<Add_agent table={"buyer"} />}
+            path="/loc_of_pkg"
+            element={<Viewdata table={"loc_of_pkg"} />}
           />
-          <Route
-            exact
-            path="/add_seller"
-            element={<Add_agent table={"seller"} />}
-          />
-          <Route
-            exact
-            path="/add_agent"
-            element={<Add_agent table={"agent"} />}
-          />
+          
+      
           <Route
             exact
             path="/ourteam"

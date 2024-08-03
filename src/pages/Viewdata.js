@@ -8,7 +8,7 @@ export default function Viewdata(p) {
 
   const loaddata = async () => {
     toast.loading("Loading ... Please Wait ...");
-    const response = await fetch("http://localhost:4000/api/v1/view", {
+    const response = await fetch("http://localhost:4000/api/v1/Viewdata", {
       method: "POST",
       credentials: "include",
       headers: {

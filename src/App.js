@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Add_agent from "./pages/Add_buyer";
+import Add_agent from "./pages/Customer";
 
 import Navbar from "./components/Navbar";
 import toast, { Toaster } from "react-hot-toast";
